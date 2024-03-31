@@ -36,6 +36,9 @@ env:
 jobs:
   build:
     runs-on: ubuntu-18.04
+    name: Ubuntu
+    uses: csexton/debugger-action@master
+
 
     steps:
     - name: Checkout
